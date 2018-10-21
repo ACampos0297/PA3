@@ -187,7 +187,7 @@ int main(int argc, char * argv[]) {
 		//add quit after joining thread
 		//will need to add a quit to every thread so w quits
 		cout << "INSERTING QUIT ... ";
-		for(int i=0;i <n; i++)
+		for(int i=0;i <w; i++)
 			requestsBuffer.push("quit");
 		cout << " done. "<<endl;
 		
